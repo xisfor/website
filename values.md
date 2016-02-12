@@ -17,5 +17,5 @@ permalink: /values/
 - Do good work.
 
 <div class="next-steps-container">
-  <p class="lead">Is the way you like to work? <a href="/contact" class="btn btn-lg btn-default">Get in contact</a></p>
+  <p class="lead">Is this way you like to work? <a href="/contact" class="btn btn-lg btn-default">Get in contact</a></p>
 </div>

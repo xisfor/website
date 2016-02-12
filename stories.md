@@ -30,7 +30,7 @@ permalink: /stories/
 
   <div class="col-sm-4">
     <h3>Asset management system</h3>
-    <p>This system was so important it needed to be rescued, not discarded. We
+    <p>This system was so valuable it needed to be rescued, not discarded. We
       identified the critical parts, stabilised it through automated testing, and
       optimised it; it now handles hundreds of thousands of assets.</p>
     <p><small>Built with Ruby on Rails and iOS. Scaled using Amazon Web Services.</small></p>

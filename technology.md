@@ -46,5 +46,5 @@ permalink: /technology/
 </div>
 
 <div class="next-steps-container">
-  <p class="lead">To see how they've worked for others <a href="/stories" class="btn btn-lg btn-default">Read some stories</a></p>
+  <p class="lead">See how they've worked for others <a href="/stories" class="btn btn-lg btn-default">Read some stories</a></p>
 </div>
