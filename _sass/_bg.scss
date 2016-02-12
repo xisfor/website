@@ -1,0 +1,31 @@
+
+// http://www.gradient-animator.com/
+html {
+    background: linear-gradient(270deg, #246655, #9c65bb, #6576bb, #bf4474);
+    background-size: 800% 800%;
+    -webkit-animation: GradientCycle 120s ease infinite;
+    -moz-animation: GradientCycle 120s ease infinite;
+    -o-animation: GradientCycle 120s ease infinite;
+    animation: GradientCycle 120s ease infinite;
+}
+
+@-webkit-keyframes GradientCycle {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes GradientCycle {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes GradientCycle {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes GradientCycle {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
