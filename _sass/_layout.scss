@@ -65,7 +65,18 @@ body {
  * Header
  */
 .site-header {
-  margin-top: 30px;
+  &-container {
+    padding-top: 30px;
+    background-color: rgba(55,55,55,.75);
+
+    @media (max-width: 766px) {
+      padding-top: 10px;
+    }
+  }
+
+  &:after {
+    content: "";
+  }
 }
 .navbar-brand {
   font-size: 22px;
@@ -73,9 +84,11 @@ body {
 
 .masthead-nav {
   margin-right: 15px;
+  margin-left: 15px;
 
-  & > li + li {
-    margin-left: 20px;
+  & > li {
+    margin-right: 15px;
+
   }
 
   & > li > a {
@@ -103,9 +116,18 @@ body {
 
 }
 
+.navbar-toggle {
+  &:hover,
+  &:focus {
+    // background-color: #ccc;
+  }
+  .icon-bar {
+    background-color: #ccc;
+  }
+}
 
 .primary-content {
-  padding-top: 150px;
+  padding-top: 100px;
   background-color: rgba(55,55,55,.75);
 
   p {
@@ -124,18 +146,26 @@ body {
     margin-bottom: 60px;
     z-index: 5;
   }
+
+  @media (max-width: 766px) {
+    padding-top: 30px;
+  }
 }
 
 
-.services-container {
+.leadin-container,
+.summary-container,
+.next-steps-container,
+.technologies-container,
+.values-container {
   margin-bottom: 60px;
 }
-.summary-container {
+
+.service,
+.story {
   margin-bottom: 60px;
 }
-.next-steps-container {
-  margin-bottom: 60px;
-}
+
 .tech-department {
   margin-bottom: 30px;
 }
@@ -156,16 +186,24 @@ body {
 
 // fixed footer
 .primary-content {
-  min-height: 100%;
+  min-height: 96%;
   /* equal to footer height */
-  margin-bottom: -100px;
+  margin-bottom: -150px;
   &:after {
     content: " ";
     display: block;
   }
+
+  @media (max-width: 766px) {
+    margin-bottom: -250px;
+  }
 }
 .site-footer, .primary-content:after {
-  height: 100px;
+  height: 150px;
+
+  @media (max-width: 766px) {
+    height: 250px;
+  }
 }
 
 .site-footer {
