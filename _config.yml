@@ -11,7 +11,7 @@ email: hi@xisfor.tech
 description: > # this means to ignore newlines until "baseurl:"
   Web app development that creates a great experience for everyone. Based in Birmingham, UK.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://xisfor.tech" # the base hostname & protocol for your site
 twitter_username: xisfortech
 github_username:  xisfor
 phone_number: "07870332981"
