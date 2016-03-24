@@ -127,7 +127,7 @@ body {
 }
 
 .primary-content {
-  padding-top: 100px;
+  padding-top: 50px;
   background-color: rgba(55,55,55,.75);
 
   p {
@@ -178,6 +178,23 @@ body {
     margin-left: 15px;
 
   }
+}
+
+/* contact form */
+.bg-warning {
+  color: #333;
+  padding: 5px;
+  background-color: #e66;
+}
+
+.bg-success {
+  color: #333;
+  padding: 5px;
+  background-color: #396;
+}
+
+.form-control {
+  border-radius: 0;
 }
 
 /*

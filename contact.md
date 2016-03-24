@@ -15,23 +15,22 @@ permalink: /contact/
 
 <div class="row next-steps-container">
 
-  <div class="col-sm-8">
+  <div class="col-sm-6">
+    <div id="form-submit-response"></div>
 
-    <p class="lead"><a href="mailto:hi@xisfor.tech">hi@xisfor.tech</a></a>
-    </div>
-
-<!--   <div class="col-sm-8">
-    <form accept-charset="UTF-8" action="https://formkeep.com/f/33fb30d63902" method="POST">
-      <input type="hidden" name="utf8" value="✓">
+    <form accept-charset="UTF-8"
+          action="https://zio6ulwrtc.execute-api.eu-west-1.amazonaws.com/prod/xisforcontact"
+          method="POST"
+          id="contact-form">
 
       <div class="form-group">
-        <label for="email-input">Email address</label>
+        <label for="email-input">Your email address</label>
         <input name="email" type="email" class="form-control" id="email-input" placeholder="Email">
       </div>
 
       <div class="form-group">
         <label for="body-input">Your request</label>
-        <textarea name="body" id="body-input" placeholder="Request" class="form-control" rows="3"></textarea>
+        <textarea name="message" id="body-input" placeholder="Request" class="form-control" rows="6"></textarea>
       </div>
 
       <div class="form-group">
@@ -39,6 +38,5 @@ permalink: /contact/
       </div>
     </form>
   </div>
- -->
 
 </div>

@@ -27,3 +27,28 @@
   ga('send', 'pageview');
 
 </script>
+
+<script type="text/javascript">
+  $('form#contact-form').on('submit', function(event) {
+    event.preventDefault();
+
+    $.ajax({
+      type: 'POST',
+      url: this.action,
+      contentType: 'application/json',
+      data: JSON.stringify({
+        email: this.email.value,
+        message: this.message.value
+      })
+    })
+    .done(function(res) {
+      $('#form-submit-response')[0]
+        .innerHTML = '<p class="bg-success">' + res + '</p>';
+    })
+    .fail(function(err) {
+      console.log('boo', err.responseJSON)
+      $('#form-submit-response')[0]
+        .innerHTML = '<p class="bg-warning">' + err.responseJSON.errorMessage + '</p>';
+    })
+  })
+</script>
