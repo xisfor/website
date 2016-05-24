@@ -145,8 +145,10 @@ body {
     margin-bottom: 25px;
   }
 
-  a {
-    color: #eeee33;
+  &--blog {
+    a {
+      color: #eeee33;
+    }
   }
 }
 
