@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "AWS Lambda contact form"
-date:   2016-03-24 23:33:08 +0000
+title:  "Serverless contact form with AWS Lambda"
+date:   2016-06-01 12:00:08 +0000
 categories: aws lambda api tech
 ---
 Static sites are great. They're really really great. Except for one minor issue... they're really static. Sometimes you have a little bit that needs a server, like a contact form!
@@ -10,7 +10,7 @@ I was talking about this with [a friend](http://www.alexdunne.net/) the other da
 
 It's actually pretty simple. You need more than just Lambda, you'll also need SES and API Gateway. It's all really straight forward though.
 
-Lambda can (at time of writing - March 2016) only run Java, Python Node.js. I went for the latter.
+Lambda can (at time of writing - May 2016) only run Java, Python or Node.js. I went for the latter.
 
 This is the Lambda Javascript you'd need
 
