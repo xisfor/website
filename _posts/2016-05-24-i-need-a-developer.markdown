@@ -3,6 +3,7 @@ layout: post
 title: I need a developer - Effective development resourcing
 date: 2016-05-24
 categories: process
+permalink: /blog/:year/:month/:day/:title/
 ---
 
 "I need a developer" is an oft heard phrase at business startup meetups. It's a perfectly valid thing to want when you're getting into a technology business, but you need to consider: Is this the right time and do I have the processes in place to get the most out of this?

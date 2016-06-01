@@ -3,6 +3,7 @@ layout: post
 title:  "Serverless contact form with AWS Lambda"
 date:   2016-06-01
 categories: aws lambda api tech
+permalink: /blog/:year/:month/:day/:title/
 ---
 Static sites are great. They're really really great. Except for one minor issue... they're really static. Sometimes you have a little bit that needs a server, like a contact form!
 
