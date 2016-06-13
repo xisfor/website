@@ -31,6 +31,10 @@ body {
   color: #ee3333;
 }
 
+.navbar-toggle .icon-bar {
+  background-color: #efefef;
+}
+
 .hero {
   position: relative;
   height: 300px;
@@ -46,6 +50,9 @@ body {
 .hero__content {
   position: relative;
   padding-top: 90px;
+  @media (max-width: 766px) {
+    padding-top: 15px;
+  }
 }
 .hero__content__title {
   font-size: 42px;
@@ -77,6 +84,12 @@ body {
   .tech-logos {
     margin-top: 30px;
     margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 766px) {
+  .tech-logos img {
+    margin-bottom: 15px;
   }
 }
 
