@@ -10,7 +10,7 @@ hero_lead:
 {% include hero.html %}
 
 
-<div class="story-container container">
+<div class="story-container primary-content container">
   <div class="row">
     <div class="col-sm-4 story">
       <h3>Ethical investment platform</h3>
@@ -59,7 +59,7 @@ Media asset management and delivery for major brands
 
 <hr />
 
-<div class="next-steps-container container">
+<div class="next-steps-container primary-content container">
   <div class="row">
     <div class="col-sm-4">
       <h3>You should work with people who believe in the same things you believe.</h3>

@@ -8,7 +8,7 @@ hero_lead: Start a conversation
 
 {% include hero.html %}
 
-<div class="container">
+<div class="container primary-content">
 
   <div class="row">
     <div class="col-sm-8">
@@ -24,14 +24,14 @@ hero_lead: Start a conversation
 
 
     <div class="col-sm-3">
-      <div class="thumbnail">
-        <img src="/assets/bricky-kev.jpg" alt="" title="" class="" height="120" />
+
+        <img src="/assets/bricky-kev.jpg" alt="" title="" class="img-responsive" height="120" />
         <div class="caption">
           <h3>Kevin Carmody</h3>
           <p>{% include icon-twitter.html username=site.twitter_username %}</p>
           <p>07870332981</p>
         </div>
-      </div>
+
     </div>
 
     <div class="col-sm-6  col-sm-offset-0">
