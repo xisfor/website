@@ -13,6 +13,9 @@ body {
 
   .nav li {
     margin-left: 5px;
+    a {
+      transition: all 0.5s ease;
+    }
     &.active a {
       background-color: #555;
     }
