@@ -1,15 +1,17 @@
 ---
 layout: default
 permalink: /blog/
+hero_title: Blog
+hero_lead: Thoughts and discoveries in running a technology business
 ---
 
-<div class="blog">
+{% include hero.html %}
 
-  <h1 class="page-heading">Posts</h1>
+<div class="blog-container container">
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-      <li>
+
         <article>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -17,9 +19,9 @@ permalink: /blog/
 
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
         </article>
-      </li>
+
     {% endfor %}
-  </ul>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

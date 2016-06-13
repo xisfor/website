@@ -1,6 +1,6 @@
 
 // http://www.gradient-animator.com/
-html {
+.cycle-color-bg {
     background: linear-gradient(270deg, #246655, #9c65bb, #6576bb, #bf4474);
     background-size: 800% 800%;
     -webkit-animation: GradientCycle 120s ease infinite;

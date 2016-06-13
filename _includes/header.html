@@ -2,8 +2,8 @@
 
 
 <header class="site-header">
-  <div class="container site-header-container">
-
+  <div class="container site-header__container">
+  <div class="row">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header ">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar-collapse-1" aria-expanded="false">
@@ -12,7 +12,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <!-- <a class="navbar-brand" href="/"><span class="brand-name"><span class="ex">x</span> is for</span></a> -->
+      <a class="navbar-brand" href="/"><span class="site-header__brand-name"><span class="ex">x</span> is for .tech</span></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,8 +30,10 @@
         <li {% if current[1] == 'stories' %}class='active'{% endif %}>
           <a href="/stories">Stories</a></li>
 
+          <!--
         <li {% if current[1] == 'values' %}class='active'{% endif %}>
           <a href="/values">Values</a></li>
+ -->
 
         <li {% if current[1] == 'contact' %}class='active'{% endif %}>
           <a href="/contact">Contact</a></li>
@@ -41,6 +43,6 @@
 
       </ul>
     </div>
-
+    </div>
   </div>
 </header>

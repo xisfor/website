@@ -1,47 +1,90 @@
 ---
 layout: default
+hero_title: Web application development
+hero_lead: Birmingham, UK. Ruby on Rails, Node.js, DevOps.
 ---
 
-<h1 class="primary-content__heading">{% include brand-name.html %} _________</h1>
+{% include hero.html %}
 
-<div class="services-container clearfix row">
-  <div class="col-sm-4 service">
-    <h2>Planning <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></h2>
-    <p class="lead">Project planning consultancy.</p>
-    <p>Application design and architecting.</p>
-  </div>
 
-  <div class="col-sm-4 service">
-    <h2>Building <span class="glyphicon glyphicon-th" aria-hidden="true"></span></h2>
-    <p class="lead">Turning designs into interfaces.</p>
-    <p>Creating data driven web applications.</p>
-  </div>
+<div class="container primary-content services-container">
+  <div class="row">
+    <div class="col-sm-4 service">
+        <img src="assets/kanban16x9.jpg" class="img-responsive">
+      <h2>Planning <span class="pull-right hidden glyphicon glyphicon-list-alt" aria-hidden="true"></span></h2>
+      <p class="lead">Project planning consultancy.</p>
+      <p>Application design and architecting.</p>
+    </div>
 
-  <div class="col-sm-4 service">
-    <h2>Shipping <span class="glyphicon glyphicon-send" aria-hidden="true"></span></h2>
-    <p class="lead">Providing scaling experience.</p>
-    <p>Developing cloud-based infrastructures.</p>
-  </div>
-</div>
+    <div class="col-sm-4 service">
+        <img src="assets/coding16x9.jpg" class="img-responsive">
+      <h2>Building <span class="pull-right hidden glyphicon glyphicon-th" aria-hidden="true"></span></h2>
+      <p class="lead">Turning designs into interfaces.</p>
+      <p>Creating data driven web applications.</p>
+    </div>
 
-<div class="summary-container clearfix">
-  <h3>A development department, when you need it.</h3>
-</div>
-
-<div class="next-steps-container clearfix row">
-  <div class="col-sm-6">
-    <p class="text-center">
-      <a href="/technology" class="btn btn-lg btn-default">Technology approach</a>
-    </p>
-  </div>
-  <div class="col-sm-6">
-    <p class="text-center">
-
-      <a href="/contact" class="btn btn-lg btn-default">Get in contact</a>
-    </p>
+    <div class="col-sm-4 service">
+        <img src="assets/computer-servers16x9.jpg" class="img-responsive">
+      <h2>Deploying <span class="pull-right hidden glyphicon glyphicon-send" aria-hidden="true"></span></h2>
+      <p class="lead">Providing scaling experience.</p>
+      <p>Developing cloud-based infrastructures.</p>
+    </div>
   </div>
 </div>
 
+
+<div class="home__tech-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="text-center home__tech-section__title">
+          <h3>Modern web technology</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+
+
+      {% include tech-items.html %}
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <p class="text-center home__tech-section__call-to-action">
+          <a href="/technology" class="btn btn-lg btn-default">Learn more</a>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container next-steps-container">
+
+  <div class="row">
+    <div class="col-sm-3 col-sm-offset-2">
+      <div class="thumbnail">
+      <img src="/assets/bricky-kev.jpg" alt="" title="" class="" height="120" />
+      </div>
+    </div>
+    <div class="col-sm-3 col-sm-offset-1">
+      <h3 class="-center">Get in touch</h3>
+      <p class="-center">
+        Whether you've got a clear need, or you're still looking to talk your idea
+        through with someone, get in touch and I'll do what I can to help.
+      </p>
+      <p class="-center">
+        <a href="/contact" class="btn btn-lg btn-primary">Contact me</a>
+      </p>
+    </div>
+  </div>
+</div>
 <!-- <div class="home">
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
