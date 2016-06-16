@@ -1,17 +1,17 @@
 ---
 layout: post
 title: Developer onboarding - or - Not wasting everyone's time
-date: 2016-05-01
+date: 2016-06-16
 categories: process
 ---
 
-Any dev team wants a new start to be up and running as soon as possible.
+Any development team wants a new start to be up and running as soon as possible.
 
 There are a few hard skills and soft skills that will make this happen with the least fuss:
 
 ## Clear prerequisites
 
-Have a list of what OSs are supported and what's needed to set a project up to develop
+Have a list of what OSs are supported and what's needed to set a project up to develop.
 
 This is my typical prereque list:
 
@@ -24,14 +24,18 @@ This is my typical prereque list:
 
 ## Repeatability
 
-You could also say "Automate everything!" I tend to use Vagrant, for both environment parity between developers and production (no more "works for me"), and to be able to have single command setups with `vagrant up`.
+You could also say "Automate everything!" A new start shouldn't have to spend time figuring out the basics before they even get going.
 
-I have my own set of Ansible roles which can help you with common setups.
+I tend to use Vagrant, for both environment parity between developers and production (no more "works for me"), and to be able to have single command setups with `vagrant up`.
+
+I also have [my own set of Ansible roles](https://github.com/xisfor/ansible-provisioner) which can help you with common setups.
 
 
 ## Testing your setup process
 
 One shouldn't care for servers, whether that's in production or development. Destroy your environment and rebuild it on a regular basis. Not from a golden image, but from your provisioning scripts. Exercise your setup.
+
+Servers are cattle, not pets. Never be afraid to shoot one.
 
 
 ## Stop trying to be clever
