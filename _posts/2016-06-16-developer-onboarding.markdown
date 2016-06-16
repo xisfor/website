@@ -3,6 +3,7 @@ layout: post
 title: Developer onboarding - or - Not wasting everyone's time
 date: 2016-06-16
 categories: process
+permalink: /blog/:year/:month/:day/:title/
 ---
 
 Any development team wants a new start to be up and running as soon as possible.
